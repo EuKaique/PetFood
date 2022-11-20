@@ -4,7 +4,7 @@ import Product from '../../components/product/list';
 
 const Checkout = () => {
     return (<div>
-                <Header />
+                <Header hideCart/>
                 <div className="container mt-4">
                     <div className="row">
                         <div className="col-6">
@@ -54,7 +54,7 @@ const Checkout = () => {
                                     <b>Total</b>
                                     <h3>R$ 39,99</h3>
                                 </div>
-                                <div class="d-grid gap-2">
+                                <div className="d-grid gap-2">
                                     <button className="btn primary btn-lg">Finalizar compra</button>
                                 </div>
                             </div>

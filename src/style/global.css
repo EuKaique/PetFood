@@ -27,8 +27,13 @@ input[type='date']:disabled{
     color: #626264;
 }
 
-button{
+button,
+.btn{
     font-size: 15px !important;
+}
+
+.secondary .rounded-circle{
+    padding: 6px 14px;
 }
 
 :root {
