@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html,
+body{
+    font-family: 'Open Sans';
+    letter-spacing: -0.03em;
+    overflow-x: hidden;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='date']{
+    font-size: 15px;
+}
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='date'],
+input[type='text']:disabled,
+input[type='email']:disabled,
+input[type='password']:disabled,
+input[type='date']:disabled{
+    background-color: #F6F5F5;
+    border: 0.5px solid #DCDCDC;
+    outline: none;
+    color: #626264;
+}
+
+button{
+    font-size: 15px !important;
+}
+
+:root {
+    --primary: #06D6A0;
+    --secondary: #FA643D;
+    --third:    #D3A8F0BD;
+}
+
+.primary{
+    background-color: var(--primary);
+}
+
+.primary{
+    background-color: var(--primary);
+    color: #FFFFFF;
+}
+
+.third{
+    background-color: var(--third);
+    color: #3B185F;
+}
+
+.primary:active,
+.primary:focus,
+.primary:disabled,
+.primary:hover{
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: #FFFFFF;
+}
+
+.secondary{
+    background-color: var(--secondary);
+    color: #FFFFFF;
+}
+
+.secondary:active,
+.secondary:focus,
+.secondary:disabled,
+.secondary:hover{
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: #FFFFFF;
+}
+
+.box{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px 5px rgba(155, 155, 155, 0.8);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+}
